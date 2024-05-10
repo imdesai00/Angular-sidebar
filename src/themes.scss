@@ -1,0 +1,7 @@
+@import '~@nebular/theme/styles/theming';
+@import '~@nebular/theme/styles/themes/default';
+
+// $nb-enable-css-custom-properties: true;
+$nb-themes: nb-register-theme((
+
+), default, default);

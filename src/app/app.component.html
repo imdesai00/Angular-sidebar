@@ -1,0 +1,16 @@
+<nb-layout>
+  <nb-layout-header>
+    <a href="#" (click)="toggle()">
+      <!-- <i class="nb-menu"></i> -->
+      <nb-icon icon="menu-outline" status="basic"></nb-icon>
+    </a>
+    <h4 class="text-primary" style="margin-left: 15px;">Testing Project</h4>
+  </nb-layout-header>
+  <nb-sidebar >
+    <nb-menu [items]="items"></nb-menu>
+  </nb-sidebar>
+
+  <nb-layout-column class="colored-column-basic">
+    <router-outlet></router-outlet>
+  </nb-layout-column>
+</nb-layout>
